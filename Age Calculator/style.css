@@ -40,3 +40,11 @@ body{
     color: #100c3f;
     font-size: 30px;
 }
+.box button:hover {background-color: #ced71e;
+    color: #504c78;}
+
+.box button:active {
+  background-color: #f4ff20;
+  box-shadow: 0 5px #545252;
+  transform: translateY(4px);
+}
