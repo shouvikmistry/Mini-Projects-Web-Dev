@@ -1,7 +1,14 @@
 
 const d = new Date();
 
-document.getElementById("currDate").innerHTML = "Today date is : "+d.getDate() + "/" + d.getMonth()+"/" + d.getFullYear();
+document.getElementById("currDate").innerHTML = "Today date is : "+d.getDate() + "/" + (d.getMonth()+1)+"/" + d.getFullYear();
+
+function getDate() {
+    let dobString = document.getElementById("myDate").value;
+    let dob = new Date(dobString);
+    let age = d.getFullYear() - dob.getFullYear();
+    document.getElementById("display").innerHTML = "Your DOB is : "+dob.getDate() + "/" + (dob.getMonth()+1)+"/" + dob.getFullYear()+"\n You are "+age+" Years old";
+}
 
 
 
