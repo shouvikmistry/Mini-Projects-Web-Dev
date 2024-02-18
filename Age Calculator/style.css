@@ -19,17 +19,20 @@ body{
     box-shadow: 8px 8px black;
 }
 .displayAge {
-    height: 400px;
-    width: 500px;
-    background-color: #ff277a;
-    color: #f4fd53;
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+    background-color: #f5c31d;
+    color: #e4302d;
     text-align: center;
     border-radius: 10px;
     /* box-shadow: 8px 8px black; */
     position: absolute;
     top: 200px;
     left: 500px;
-    
+    visibility: hidden;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .box h1{
     padding: 30px;
@@ -62,3 +65,4 @@ body{
   box-shadow: 0 5px #545252;
   transform: translateY(4px);
 }
+

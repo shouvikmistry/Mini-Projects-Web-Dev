@@ -8,34 +8,12 @@ function getDate() {
     let dob = new Date(dobString);
     let age = d.getFullYear() - dob.getFullYear();
     document.getElementById("display").innerHTML = "Your DOB is : "+dob.getDate() + "/" + (dob.getMonth()+1)+"/" + dob.getFullYear()+"\n You are "+age+" Years old";
+    document.getElementById("age").innerHTML = "You are "+age+" Years old.";
+
+    document.getElementsByClassName("displayAge")[0].style.visibility = "visible";
+
+    document.getElementById("displayAge").style.visibility = "visible";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
