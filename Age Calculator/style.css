@@ -65,4 +65,25 @@ body{
   box-shadow: 0 5px #545252;
   transform: translateY(4px);
 }
+/* Add this style for the reload button */
+.reload-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e4860a;
+    color: #c6c2f9;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
+.reload-button:hover {
+    background-color: #d7491e;
+    color: #58e6f0;
+}
+
+.reload-button:active {
+    background-color: #ff6320;
+    box-shadow: 0 5px #703636;
+    transform: translateY(4px);
+}

@@ -15,7 +15,12 @@ function getDate() {
     document.getElementById("displayAge").style.visibility = "visible";
 }
 
-
+function reloadPage() {
+    // Hide the result div
+    document.getElementById("displayAge").style.visibility = "hidden";
+    // Reset the form by reloading the page
+    location.reload();
+}
 
 
 //  // JavaScript code to display the current date
