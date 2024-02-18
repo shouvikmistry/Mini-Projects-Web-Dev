@@ -85,5 +85,5 @@ body{
 .reload-button:active {
     background-color: #ff6320;
     box-shadow: 0 5px #703636;
-    transform: translateY(4px);
+    transform: translateY(4px);/* CSS property is used to vertically translate (move) an element along the Y-axis. In this case, when the button is in the active state (clicked), it will be pushed down by 4 pixels along the Y-axis. */
 }
