@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    background-image: linear-gradient(rgb(250, 132, 132), rgb(237, 153, 199));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +11,7 @@ body{
     font-family: cursive;
 }
 .box {
-    height: 400px;
+    height: 430px;
     width: 500px;
     background-color: #7F27FF;
     color: #f4fd53;
@@ -35,27 +36,29 @@ body{
     font-weight: bold;
 }
 .box h1{
-    padding: 30px;
+    padding: 20px;
+    font-size: 25px;
 }
 .box h2{
-    padding: 30px;
+    padding: 20px;
+    font-size: 20px;
 }
 .box input{
     background-color: #74E291;
     /* height: 10px;
     width: 50px; */
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px;
 }
 .box button{
     margin: 25px;
-    padding: 20px;
+    padding: 10px;
     border: 0px;
     border-radius: 10px;
     background-color: #f4ff20;
     color: #100c3f;
-    font-size: 30px;
+    font-size: 20px;
 }
 .box button:hover {background-color: #ced71e;
     color: #504c78;}
