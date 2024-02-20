@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: cursive;
+}
+.box {
+    height: 400px;
+    width: 500px;
+    background-color: #7F27FF;
+    color: #f4fd53;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+}
+.displayAge {
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+    background-color: #f5c31d;
+    color: #e4302d;
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: 8px 8px black; */
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    visibility: hidden;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.box h1{
+    padding: 30px;
+}
+.box h2{
+    padding: 30px;
+}
+.box input{
+    background-color: #74E291;
+    /* height: 10px;
+    width: 50px; */
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.box button{
+    margin: 25px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #f4ff20;
+    color: #100c3f;
+    font-size: 30px;
+}
+.box button:hover {background-color: #ced71e;
+    color: #504c78;}
+
+.box button:active {
+  background-color: #f4ff20;
+  box-shadow: 0 5px #545252;
+  transform: translateY(4px);
+}
+/* Add this style for the reload button */
+.reload-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e4860a;
+    color: #c6c2f9;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reload-button:hover {
+    background-color: #d7491e;
+    color: #58e6f0;
+}
+
+.reload-button:active {
+    background-color: #ff6320;
+    box-shadow: 0 5px #703636;
+    transform: translateY(4px);/* CSS property is used to vertically translate (move) an element along the Y-axis. In this case, when the button is in the active state (clicked), it will be pushed down by 4 pixels along the Y-axis. */
+}
