@@ -1,9 +1,8 @@
-# Welcome 🖐 to the Age Calculator
+# Welcome 🖐 to the BMI Calculator
 It is a simple Javascript project which calculates our Body Mass Index.
 
-## Default view
-![Default View](container.png)
-![Default View](result.png)
+## Demo view
+![Default View](snap.png)
 
 ## 💻Tech Stack
 <br>

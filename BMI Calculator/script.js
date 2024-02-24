@@ -9,10 +9,6 @@ function getDate() {
     let age = currentDate.getFullYear() - dob.getFullYear();// Calculate the difference in years
     // Check if the birthday has occurred this year
 
-    /*
-    currentDate.getMonth() < dob.getMonth(): This part checks if the current month is before the month of the person's birthday. If true, it means the birthday has not occurred yet in the current year, so the age needs adjustment.
-    (currentDate.getMonth() === dob.getMonth() && currentDate.getDate() < dob.getDate()): This part checks if the current month is the same as the month of the person's birthday AND if the current day of the month is before the day of the person's birthday. If both conditions are true, it means the birthday has not occurred yet in the current year, so the age needs adjustment.
-    */
     if (currentDate.getMonth() < dob.getMonth() || (currentDate.getMonth() === dob.getMonth() && currentDate.getDate() < dob.getDate())) {
         age--;
     }
