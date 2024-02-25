@@ -1,13 +1,9 @@
 # Welcome 🖐 to the BMI Calculator
 It is a simple Javascript project which calculates our Body Mass Index.
 
-<<<<<<< HEAD
 ## Demo view
 ![Default View](snap.png)
 =======
-## Default view
-![Default View](result.png)
->>>>>>> 8bc4d59dd01d2492e0beb04eb9fc03f2724114c5
 
 ## 💻Tech Stack
 <br>
