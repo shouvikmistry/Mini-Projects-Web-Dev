@@ -11,19 +11,13 @@
     <div class="box">
         <h1>Body Mass Index Calculator</h1>
         <h2>Height in CM</h2>
-        <input type="number" name="" id="myDob" value="160">
+        <input type="number" name="" id="myHeight" value="160">
         <h2>Weight in KG</h2>
-        <input type="number" name="" id="myDob" value="60">
+        <input type="number" name="" id="myWeight" value="60">
         <br>
-        <p>Your BMI is 20.00</p>
-        <button type="submit" onclick="getDate()">Calculate</button>
+        <p id="result">Know Your BMI</p>
+        <button type="submit" onclick="getBMI()">Calculate</button>
     </div>
-    <div id="displayAge" class="displayAge">
-        <p id="age"></p>
-        <button type="button" onclick="reloadPage()" class="reload-button">Reload</button>
-
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
