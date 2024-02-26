@@ -9,11 +9,33 @@ body{
     align-items: center;
 }
 .box{
+    position: relative;
     width: 250px;
     height: 350px;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.297);
+    z-index: 1;
     display: flex;
+    /* backdrop-filter: blur(30px); */
     justify-content: center;
     align-items: center;
     border-radius: 15px;
 }
+
+.box::before,.box::after {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    z-index: 0;
+}
+.box::before {
+    background: linear-gradient(#6cff47, #3d1046);
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+  }
+.box::after {
+    background: linear-gradient(#f955e8, #0e045a);
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+  }
