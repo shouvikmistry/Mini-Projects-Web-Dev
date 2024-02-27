@@ -5,6 +5,7 @@
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -27,9 +28,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 15px;
 }
-
+.batteryShape{
+    width: 100px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px 0;
+}
 .sec::before,
 .sec::after {
     content: "";
