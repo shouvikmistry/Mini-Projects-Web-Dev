@@ -52,7 +52,7 @@
 .level{
     width: 50%;
     height: 90%;
-    background: linear-gradient(#6fff47, #b8dc26);
+    background: linear-gradient(90deg,#d1ff76, #26dc3b);
     margin: 3px 3px;
     border-radius: 5px;
 }
@@ -73,6 +73,6 @@
 .sec::after {
     width: 240px;
     height: 240px;
-    background: linear-gradient(#f955e8, #0e045a);
+    background: linear-gradient(#f24abd, #11a8bc);
     transform: translate(150px, 100px);
 }
