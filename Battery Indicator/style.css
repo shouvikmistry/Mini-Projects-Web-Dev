@@ -49,11 +49,16 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.container{
+        width: 97%;
+        height: 90%;
+        margin: 3px 3px;
+        border-radius: 5px;
+}
 .level{
     width: 50%;
-    height: 90%;
+    height: 100%;
     background: linear-gradient(90deg,#d1ff76, #26dc3b);
-    margin: 3px 3px;
     border-radius: 5px;
 }
 .sec::before,
