@@ -1,5 +1,6 @@
 let percentage = document.querySelector(".level");
 let percent = document.querySelector(".percent");
+let isCharing = document.querySelector(".image");
 
 navigator.getBattery().then(function (battery) {
 //navigator object provides information about the user's browser and device. 
@@ -15,7 +16,12 @@ navigator.getBattery().then(function (battery) {
 function updateBattery(battery) {
     percentage.style.width = battery.level * 100 + "%";
     //battery.level is a property that represents the current battery level as a value between 0 and 1.
-    
+
     percent.innerHTML = Math.floor(battery.level * 100) + "%";
     //Math.floor is a built-in function in JavaScript that returns the largest integer less than or equal to a given number. It effectively rounds down a floating-point number to the nearest integer.
+
+    if (battery.charging) {
+        // The battery is charging.
+        isCharing.style.visibility = 'visible';
+    }
 }
