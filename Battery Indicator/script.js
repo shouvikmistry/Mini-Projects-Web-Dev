@@ -25,3 +25,7 @@ function updateBattery(battery) {
         isCharing.style.visibility = 'visible';
     }
 }
+let toggle = document.querySelector(".toggle");
+toggle.addEventListener("click", function () {
+  sec.classList.toggle("dark");
+});

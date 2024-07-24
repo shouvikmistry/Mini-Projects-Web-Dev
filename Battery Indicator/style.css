@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 
 * {
     margin: 0;
@@ -15,7 +17,23 @@
     justify-content: center;
     align-items: center;
 }
-
+.toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggle::before{
+    content: "\f186";
+  font-family: fontAwesome;
+  color: #fff;
+}
 .box {
     position: relative;
     width: 250px;
@@ -92,3 +110,12 @@
     background: linear-gradient(#f24abd, #11a8bc);
     transform: translate(150px, 100px);
 }
+.dark .toggle::before {
+    content: "\f185";
+    color: #161623;
+  }
+.toggle::before {
+    content: "\f186";
+    font-family: fontAwesome;
+    color: #fff;
+  }
