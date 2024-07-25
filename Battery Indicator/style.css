@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -22,18 +23,25 @@
     top: 20px;
     right: 20px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 35px;
     width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.toggle::before{
+.toggle::before {
     content: "\f186";
-  font-family: fontAwesome;
-  color: #fff;
-}
+    font-family: fontAwesome;
+    color: #fff;
+  }
+  .dark .toggle {
+    background: #fff;
+  }
+  .dark .toggle::before {
+    content: "\f185";
+    color: #161623;
+  }
 .box {
     position: relative;
     width: 250px;
@@ -110,12 +118,5 @@
     background: linear-gradient(#f24abd, #11a8bc);
     transform: translate(150px, 100px);
 }
-.dark .toggle::before {
-    content: "\f185";
-    color: #161623;
-  }
-.toggle::before {
-    content: "\f186";
-    font-family: fontAwesome;
-    color: #fff;
-  }
+
+
