@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        body {
+            background-color: grey;
+            display: flex;
+            /* justify-content: center;
+            /* align-items: center; */
+            /* align-content: center; */ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            height: 480px;
+            width: 280px;
+            border-radius: 7px;
+        }
+        .image {
+            padding: 5px;
+        }
+        .image img {
+            border-radius: 10px;
+        }
+        .content{
+            padding: 9px;
+            font-family: 'popins', sans-serif;
+        }
+        .content p{
+            font-size: 16px;
+            color: gray;
+        }
+        .capsule{
+            padding: 9px 40px 0 10px;
+        }
+        .capsule span {
+            padding: 10px 16px;
+            border: 1px rgb(104, 102, 102) solid ;
+            border-radius: 12px;
+        }
+        .btn{
+            text-align: center;
+        }
+        .btn button{
+            padding: 7px;
+            border-radius: 8px;
+            background-color: rgb(195, 223, 248);
+            color: blue;
+            border: none;
+        }
+        .btn button:hover{
+            color: rgb(141, 202, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="270px" src="img.jpeg" alt="">
+        </div>
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Shouvik</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cupiditate sint obcaecati esse quisquam quam odio iusto rem velit minima a voluptates facilis!</p>
+        </div>
+        <div class="btn">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
