@@ -1,4 +1,4 @@
-# Welcome 🖐 to the BMI Calculator
+# Welcome 🖐 to the CSS Card
 It is a simple CSS project which Shows A card.
 
 ## Demo view
