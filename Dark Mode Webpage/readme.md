@@ -1,5 +1,5 @@
-# Welcome 🖐 to the CSS Card
-It is a simple CSS project which Shows A card.
+# Welcome 🖐 to the Multi coloured Webpage
+It is a simple CSS project which Shows Dark mode using CSS variable.
 
 ## Demo view
 ![Default View](snap.png)
