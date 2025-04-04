@@ -42,11 +42,15 @@ boxes.forEach(e => {
 });
 */
 const boxes = document.querySelectorAll(".box");
-boxes.forEach(e => {
-    e.style.backgroundColor = GetRaandom();
-    e.style.color = GetRaandom();
-}
-)
+
+setInterval(() => {
+    boxes.forEach(e => {
+        e.style.backgroundColor = GetRaandom();
+        e.style.color = GetRaandom();
+    }
+    )
+}, 3000);
+
 
 function GetRaandom() {
     let a = Math.floor(Math.random() * 255);
